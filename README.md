@@ -1,18 +1,23 @@
 ```python
- class profile:
- 	username = 'Kuro Zann'
-		current_status = 'Learning'
-		biograph = [
-                            fullname : "Fauzan",
-                            adress   : "Indonesia",
-                            birthday : "Feb - 02"
-			]
-	
-	def adress():
-		return pasuruan_indonesia()
-	
-	def Hobby():
-		Reading history books()
-		Watching anime romance()
-		Learning code JavaScript() 
+   class Profile:
+    username = "dev@kurozann"
+      current_status = "student"
+      biography = [
+          fullname: "Ahmad - Fauzan",
+          address: "Indonesia",
+          birthday: "February - 02/09"
+      ]
+    
+    # staticmethod
+    def address():
+        return Pasuruan_Indonesia()
+    
+    # staticmethod
+    def hobby():
+        hobbies = [
+            Reading history books()
+            Watching romance anime()
+            Learning JavaScript()
+        ]
+  return hobbies
 ```
